@@ -10,38 +10,38 @@
     <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css">
 </head>
 
-<header class="position-absolute -top-20 -start-10" 
-style="width: 400px;
-height: 400px;
--moz-border-radius: 50%;
--webkit-border-radius: 50%;
-border-radius: 50%;
-background: #E3F2F6;">
+<header class="position-absolute -top-20 -start-10 d-none d-md-block" 
+    style="width: 400px;
+    height: 400px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #E3F2F6;">
 </header>
-<body style="overflow: hidden">
+<body class="overflow-hidden">
     <div id="Global" class="my-10">
         <div id="Recuadros" class="d-flex justify-content-center">
 
-            <div id="Imagen" class="position-relative shadow-sm -ms-25">
+            <div id="Imagen" class="position-relative shadow-sm -ms-25 d-none d-md-block">
                 <img src="imagenes/imagenInmuebles.jpg" class="rounded-3" style="width: 40.55em;">
             </div>            
-            <div id="Formulario" class="bg-white border rounded-3 shadow-lg my-6 position-absolute top-10 start-20">
+            <div id="Formulario" class="bg-white border rounded-3 shadow-lg my-6 position-absolute start-20 ">
                 <form action="">
                     <div class="d-flex flex-column p-5 px-6">
                         <span class="my-3 mb-5 text-center fs-1 fw-bolder">Login</span>
                         <span class="d-flex justify-content-center border-start border-5 border-primary rounded shadow my-2 ps-3 ">
                             <i class="bi bi-person fs-1 opacity-38"></i>
                             <input type="text" class="border-start border-1 my-2 mx-3 ps-3" style="width: 15em; border: 0;" placeholder="Usuario">
-                            <i class="bi bi-eye pt-3 pe-4 opacity-0"></i>
+                            <i class="bi bi-eye pt-3 pe-4 invisible"></i>
                         </span>
                         <span class="d-flex justify-content-center border-start border-5 border-primary rounded shadow my-2 ps-3">
                             <i class="bi bi-key fs-1 opacity-38"></i>
                             <input type="text" class="border-start border-1 my-2 mx-3 ps-3" style="width: 15em; border: 0;" placeholder="Contraseña">
                             <i class="bi bi-eye pt-tres pe-4"></i>
                         </span>                        
-                        <span class="text-end fs-6 fst-italic mt-2" style="color: #B5B4CD;">Restablecer Contraseña</span>
+                        <a href="" class="text-end fs-6 fst-italic mt-2" style="color: #B5B4CD;">Restablecer Contraseña</a>
                         <button class="btn btn-primary btn-lg shadow mb-4 mt-2"><i class="bi bi-box-arrow-in-right p-1"></i>Iniciar Sesión</button>
-                        <span class="text-center fs-6 fst-italic mt-2" style="color: #B5B4CD;">¿Aún no tienes cuenta? Registrate</span>
+                        <span class="text-center fs-6 fst-italic mt-2" style="color: #B5B4CD;">¿Aún no tienes cuenta? <a href="Registro.html" style="color: #B5B4CD;">Registrate</a></span>                        
                     </div>
                 </form>
             </div>
@@ -49,14 +49,13 @@ background: #E3F2F6;">
         </div>
     </div>
 
-    <footer class="position-absolute -bottom-20 -end-10" 
-    style="width: 400px;
-    height: 400px;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    background: #2B286F;">
-
+    <footer class="position-absolute -bottom-20 -end-10  d-none d-md-block" 
+        style="width: 400px;
+        height: 400px;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        background: #2B286F;">
     </footer>
 
 

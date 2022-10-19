@@ -352,6 +352,7 @@ textarea {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
+  outline: none;
 }
 
 button,
@@ -7721,6 +7722,11 @@ textarea.form-control-lg {
 .my-6 {
   margin-top: 4rem !important;
   margin-bottom: 4rem !important;
+}
+
+.my-4-5 {
+  margin-top: 2.6rem !important;
+  margin-bottom: 2.6rem !important;
 }
 
 .my-10 {
