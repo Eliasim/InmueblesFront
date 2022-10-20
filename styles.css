@@ -7080,6 +7080,10 @@ textarea.form-control-lg {
   opacity: 0.38 !important;
 }
 
+.opacity-61 {
+  opacity: 0.61 !important;
+}
+
 .opacity-50 {
   opacity: 0.5 !important;
 }
@@ -7732,6 +7736,11 @@ textarea.form-control-lg {
 .my-10 {
   margin-top: 9rem !important;
   margin-bottom: 9rem !important;
+}
+
+.-my-10 {
+  margin-top: -51rem !important;
+  margin-bottom: -51rem !important;
 }
 
 .my-auto {
