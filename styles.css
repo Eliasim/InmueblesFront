@@ -7406,6 +7406,10 @@ textarea.form-control-lg {
   width: 75% !important;
 }
 
+.w-90 {
+  width: 95% !important;
+}
+
 .w-100 {
   width: 100% !important;
 }
@@ -7772,6 +7776,10 @@ textarea.form-control-lg {
   margin-top: 3rem !important;
 }
 
+.mt-6 {
+  margin-top: 4rem !important;
+}
+
 .mt-auto {
   margin-top: auto !important;
 }
@@ -7854,6 +7862,10 @@ textarea.form-control-lg {
 
 .ms-4 {
   margin-left: 1.5rem !important;
+}
+
+.ms-cuatro {
+  margin-left: 2.3rem !important;
 }
 
 .ms-5 {
@@ -7975,6 +7987,10 @@ textarea.form-control-lg {
 
 .pt-tres {
   padding-top: 1.25rem !important;
+}
+
+.pt-dos {
+  padding-top: 0.7rem !important;
 }
 
 .pt-4 {
@@ -8107,6 +8123,10 @@ textarea.form-control-lg {
 
 .fs-6 {
   font-size: 1rem !important;
+}
+
+.fs-7 {
+  font-size: 2.5rem !important;
 }
 
 .fst-italic {
